@@ -4,7 +4,7 @@ def print_reversed_list_integer(my_list=[]):
     This function prints numbers on reveses a list line give a list
 
     Parameters:
-    - []: A list of numbers
+    - my_list: A list of numbers
 
     Returns:
     List of numbers in reverse
