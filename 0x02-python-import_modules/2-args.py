@@ -10,6 +10,6 @@ if __name__ == "__main__":
         print("1: {}".format(sys.argv[1]))
     else:
         print("{} arguments:".format(num_of_args))
-        while ((num_of_args > 2) and (counter != num_of_args + 1)):
+        while ((num_of_args >= 2) and (counter != num_of_args + 1)):
             print("{}: {}".format(counter, sys.argv[counter]))
             counter = counter + 1
