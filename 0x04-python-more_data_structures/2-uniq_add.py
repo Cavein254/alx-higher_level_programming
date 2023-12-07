@@ -2,7 +2,6 @@
 def uniq_add(my_list=[]):
     """
     A function that add unique elemets of a disctionary
-
     Parameters:
     - a_dictionary: A given dict
 
