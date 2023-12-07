@@ -2,7 +2,6 @@
 def common_elements(set_1, set_2):
     """
     A function that returns intersection of a disctionary
-    
     Parameters:
     - a_dictionary: A given dict
 
