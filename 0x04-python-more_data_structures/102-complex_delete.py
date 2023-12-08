@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 def complex_delete(a_dictionary, value):
-    """
-    A simple function
-    """
     list_keys = list(a_dictionary.keys())
 
     for value_dic in list_keys:

@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 def weight_average(my_list=[]):
-    """
-    A simple function
-    """
     if not my_list:
         return 0
 

@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 def uniq_add(my_list=[]):
-    """
-    A function that add unique elemets of a disctionary
-    Parameters:
-    - a_dictionary: A given dict
+    uniq_list = set(my_list)
+    num = 0
 
-    Returns:
-    sum
-    """
-    uniq = sum(set(my_list))
-    return uniq
+    for i in uniq_list:
+        num += i
+
+    return (num)

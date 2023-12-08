@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 def number_keys(a_dictionary):
-    """
-    A function that returns the length of disctionary
-    
-    Parameters:
-    - a_dictionary: A given dict
+    num = 0
+    list_keys = list(a_dictionary.keys())
 
-    Returns:
-    length
-    """
-    return len(a_dictionary)
+    for i in list_keys:
+        num += 1
+
+    return (num)
