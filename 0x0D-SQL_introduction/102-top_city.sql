@@ -1,6 +1,8 @@
--- Script that displays the average temperature
--- Query to display the average temperature by city ordered by temperature
-SELECT city, AVG(value) AS avg_temp
+-- displays the average temp of 3 cities
+-- during July and August
+-- ordered by temperature desc
+
+SELECT city, AVG(value) as avg_temp
 FROM temperatures
 WHERE month = 7 OR month = 8
 GROUP BY city

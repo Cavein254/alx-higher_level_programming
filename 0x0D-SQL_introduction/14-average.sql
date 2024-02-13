@@ -1,3 +1,3 @@
--- Script that computes the score average of all records in a table
--- Query to computes the score average of all records in the table second_table
+-- computes score average of all records in the second_table
+-- second table
 SELECT AVG(score) AS average FROM second_table;
